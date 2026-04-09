@@ -77,11 +77,10 @@ function GuestGenerator() {
     const url = `${window.location.origin}/?guest=${encodeURIComponent(guest.name)}`;
     const message = `Tanpa mengurangi rasa hormat.
 Kami sangat mengharapkan kehadiran Bapak/Ibu/Saudara/i untuk memberikan doa restu dalam acara kami, 
-dalam Upacara Manusa Yadnya Pawiwahan ( Pernikahan ) dan dalam Upacara Manusa Yadnya Mepandes (Potong Gigi) kami yang di laksanakan pada :
-
-Hari/tgl  : Senin, 29 Desember 2025
-Waktu   : 10:00 Wita - Selesai
-Tempat : Sempidi, Mengwi, Badung
+dalam Upacara Manusa Yadnya Menek Kelih.
+Hari/tgl  : Minggu, 12 April 2026
+Waktu   : 16:00 Wita - Selesai
+Tempat : Griya rurung alit, Br. Griya, Ds. Tampaksiring, Kab. Gianyar
 
 Undangan dapat diakses melalui link berikut:
 

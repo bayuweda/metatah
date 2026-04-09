@@ -73,17 +73,16 @@ export default function Invitation() {
             variants={fadeUp}
             className="mb-12"
           >
-          <motion.div
-            className="text-center px-4 -top-12 relative z-10"
-            initial={{ y: 30, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.9, delay: 1 }}
-          >
-            <h1 className=" text-[45px] font-qwitcher font-light ">
-              Ida Bagus Nyoman Surya Kumara
-            </h1>
-      
-          </motion.div>
+            <motion.div
+              className="text-center px-4 -top-12 relative z-10"
+              initial={{ y: 30, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.9, delay: 1 }}
+            >
+              <h1 className=" text-[45px] font-qwitcher font-light ">
+                Ida Bagus Nyoman Surya Kumara
+              </h1>
+            </motion.div>
             <div className="flex items-center justify-center space-x-3 text-sm md:text-lg tracking-[0.2em]">
               <span className="w-12 border-t-2 border-[#FAE29F]"></span>
               <p className="uppercase text-[#FAE29F] font-semibold">
@@ -169,15 +168,15 @@ export default function Invitation() {
 
       {/* ================= Ayat Section ================= */}
       {/* <section className="bg-gradient-to-r from-white to-[#FFFDF5] py-14 text-center px-6 relative"> */}
-        {/* <img
+      {/* <img
           src="/assets/kamboja.png"
           className="absolute top-0 right-0  w-96 opacity-40"
           alt=""
         /> */}
-        {/* <p className="text-[16px] sm:text-xl italic text-gray-800 leading-relaxed max-w-2xl mx-auto">
+      {/* <p className="text-[16px] sm:text-xl italic text-gray-800 leading-relaxed max-w-2xl mx-auto">
           "Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/ Tuhan Yang Maha Esa, kami bermaksud mengundang Bapak/ Ibu/ Saudara/ i pada Upacara Manusa Yadnya Menek Kelih putra kami.""
         </p> */}
-        {/* <div className="border-t-2 border-b-2 border-[#D4AF37] w-48 mx-auto mt-6 py-3">
+      {/* <div className="border-t-2 border-b-2 border-[#D4AF37] w-48 mx-auto mt-6 py-3">
           <h1 className="font-semibold text-gray-700">RG VEDA X.85.42</h1>
         </div> */}
       {/* </section> */}
@@ -192,7 +191,7 @@ export default function Invitation() {
             custom={0.2}
             variants={fadeUp}
           >
-           Menek Kelih
+            Menek Kelih
           </motion.h2>
           <motion.p
             className="mt-2 text-gray-500 italic"
@@ -200,9 +199,7 @@ export default function Invitation() {
             animate="visible"
             custom={0.4}
             variants={fadeUp}
-          >
-        
-          </motion.p>
+          ></motion.p>
           <motion.div
             className="w-24 h-[2px] bg-[#D4AF37] mx-auto mt-4"
             initial={{ scaleX: 0 }}
@@ -263,7 +260,6 @@ export default function Invitation() {
               <h4 className="font-semibold text-gray-800">
                 Ida Bagus Made Ardawa
               </h4>
-
               &<h4 className="text-gray-600"></h4>
               <h4 className="font-semibold text-gray-800">
                 Desak Ketut Bakti Astrini
@@ -273,8 +269,6 @@ export default function Invitation() {
               Griya rurung alit, Br. Griya , Ds. Tampaksiring, Kab Gianyar
             </p>
           </motion.div>
-
-          
         </div>
       </section>
       <section className="px-6 py-16 bg-gradient-to-b from-[#fdf6e3] to-[#fffdf7] text-center relative">
@@ -300,20 +294,20 @@ export default function Invitation() {
         </motion.p>
 
         <motion.div
-          // className="w-24 h-[2px] bg-[#D4AF37] mx-auto mt-4"
-          // initial={{ scaleX: 0 }}
-          // animate={{ scaleX: 1 }}
-          // transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+        // className="w-24 h-[2px] bg-[#D4AF37] mx-auto mt-4"
+        // initial={{ scaleX: 0 }}
+        // animate={{ scaleX: 1 }}
+        // transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
         />
 
         {/* Card daftar nama */}
         <motion.div
-          // className="mt-10 px-20 max-w-3xl mx-auto p-8 rounded-3xl shadow-lg bg-white/90 border border-[#D4AF37]/40 relative"
-          // initial="hidden"
-          // whileInView="visible"
-          // viewport={{ once: true }}
-          // custom={0.6}
-          // variants={fadeUp}
+        // className="mt-10 px-20 max-w-3xl mx-auto p-8 rounded-3xl shadow-lg bg-white/90 border border-[#D4AF37]/40 relative"
+        // initial="hidden"
+        // whileInView="visible"
+        // viewport={{ once: true }}
+        // custom={0.6}
+        // variants={fadeUp}
         >
           {/* Dekorasi pojok biar mirip section mempelai */}
           {/* <img
@@ -331,7 +325,7 @@ export default function Invitation() {
             className="absolute bottom-0 left-0 w-28 opacity-40"
             alt=""
           /> */}
-{/* 
+          {/* 
           <div className="relative z-10  space-y-4 text-center">
             <p className="font-qwitcher text-[#D4AF37] text-4xl leading-none drop-shadow-sm">
               Ida Ayu Widiasih
@@ -418,7 +412,7 @@ export default function Invitation() {
               Griya rurung alit, Br. Griya , Ds. Tampaksiring, Kab Gianyar
             </div>
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=-8.605650940075284,115.1871287228311
+              href="https://maps.app.goo.gl/TRDT6Cq9dzpyxPFZA?g_st=ic
 "
             >
               <button className="bg-[#D4AF37] text-black hover:bg-yellow-600 transition px-6 py-3 rounded-lg font-semibold shadow-md">
